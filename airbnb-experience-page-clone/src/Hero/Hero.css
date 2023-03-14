@@ -1,0 +1,53 @@
+.hero-content {
+    margin-top: 26px;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.hero-content > div{
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+    flex-wrap:wrap;
+
+    margin-left: 77px;
+    margin-bottom: 32px;
+    width: 400px;
+    height: 230px;
+}
+
+.hero-content > p {
+    margin: 0px;
+    margin-left: 36px;
+    margin-bottom: 16px;
+    font-family: Poppins;
+    font-style: normal;
+    padding: 0px;
+}
+
+.align-flex-start {
+    align-self: flex-start;
+}
+
+.align-flex-end {
+    align-self: flex-end;
+}
+
+.align-flex-center {
+    align-self: baseline;
+}
+
+
+.hero-title {
+    font-size: 36px;
+    font-weight: 600;
+    text-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.1);
+}
+
+.hero-text {
+    font-size: 16px;
+    font-weight: 300;
+    color: rgba(34, 34, 34, 1);
+
+}

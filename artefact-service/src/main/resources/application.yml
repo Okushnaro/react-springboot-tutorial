@@ -1,0 +1,15 @@
+spring:
+  application:
+    name: artefact-management-service
+validation:
+  meta-schema:
+    url: https://json-schema.org/draft/2020-12/output/schema
+    file: default-meta-schema.json
+    filepath: ./file.json
+
+logging:
+  level:
+    com.tech2invent: DEBUG
+initial:
+  collection:
+    data: 'collection.json'

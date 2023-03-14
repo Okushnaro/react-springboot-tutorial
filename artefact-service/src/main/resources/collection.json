@@ -1,0 +1,134 @@
+{
+	"name": "Goods",
+	"schema": {
+		"$schema": "https://json-schema.org/draft/2019-09/schema#",
+		"$id+": "http://my-paintings-api.com/schemas/painting-schema.json",
+		"type": "object",
+		"title": "Goods",
+		"description": "Different goods",
+		"additionalProperties": true,
+		"required": ["name", "brand", "price", "image"],
+		"properties": {
+			"name": {
+				"type": "string",
+				"description": "Painting name"
+			},
+			"brand": {
+				"type": "string",
+				"maxLength": 50,
+				"description": "Brand name"
+			},
+			"price": {
+				"type": "string",
+				"description": "Good price"
+			},
+			"image": {
+				"type": "string",
+				"description": "relative path to a media file"
+			}
+		}
+	},
+	"items": [
+		{
+			"name": "good1",
+			"brand": "brand1",
+			"price": "13.5",
+			"image": "/goods-images/1"
+		},
+		{
+			"name": "good2",
+			"brand": "brand2",
+			"price": "32.72",
+			"image": "/goods-images/1"
+		},
+		{
+			"name": "good3",
+			"brand": "brand2",
+			"price": "35.22",
+			"image": "/goods-images/3"
+		}
+	]
+}
+
+
+
+{
+  "name": "Goods",
+  "schema": {  
+		"$schema": "https://json-schema.org/draft/2019-09/schema#",  
+		"$id+": "http://my-paintings-api.com/schemas/painting-schema.json",  
+		"type": "object",  
+		"title": "Goods",  
+		"description": "Different goods",  
+		"additionalProperties": true,  
+		"required": ["name", "brand", "price", "image"],  
+		"properties": {  
+			"name": {  
+				"type": "string",  
+				"description": "Painting name"  
+			},  
+			"brand": {   
+				"type": "string",  
+				"maxLength": 50,  
+				"description": "Brand name"  
+			},  
+			"price": {  
+				"type": "string",  
+				"description": "Good price"  
+			},  
+			"image": {  
+				"type": "string",  
+				"description": "relative path to a media file"  
+			}  
+		} 
+	},
+  "items": {
+    "ef91832e-82ec-11ed-a1eb-0242ac120002": {
+		"name": "good1",
+		"brand": "brand1",
+		"price": "13.5",
+		"image": "/goods-images/1"
+	},
+    "ef9186b2-82ec-11ed-a1eb-0242ac120002": {
+		"name": "good2",
+		"brand": "brand2",
+		"price": "32.72",
+		"image": "/goods-images/1"
+	},
+    "ef918b30-82ec-11ed-a1eb-0242ac120002": {
+		"name": "good3",
+		"brand": "brand2",
+		"price": "35.22",
+		"image": "/goods-images/3"
+	}
+  }
+}
+
+
+
+
+
+{
+  "name": "Cars",
+  "schema": "string",
+  "items": {
+    "ef918321-82ec-11ed-a1eb-0242ac120002": {
+		"name": "BMW X1",
+		"brand": "BMW",
+		"price": "33,000",
+		"image": "/cars-images/1"
+	},
+    "ef9186b3-82ec-11ed-a1eb-0242ac120002": {
+		"name": "VW Golf",
+		"brand": "VW",
+		"price": "32,720",
+		"image": "/cars-images/1"
+	},
+    "ef918b32-82ec-11ed-a1eb-0242ac120002": {
+		"name": "AUDI Q3",
+		"brand": "AUDI",
+		"price": "35,202",
+		"image": "/cars-images/3"
+	}
+  }
+}
